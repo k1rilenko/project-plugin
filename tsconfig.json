@@ -1,0 +1,12 @@
+{
+  "extends": "./node_modules/nx/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts"]
+}
